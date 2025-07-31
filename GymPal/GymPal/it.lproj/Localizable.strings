@@ -1,0 +1,76 @@
+/* App Name */
+"not_available" = "Questa funzionalità non è ancora disponibile";
+
+/* Timer related */
+"rest_timer" = "Rest Timer";
+"rest_time" = "Riposo";
+"active_timer" = "Timer";
+"pinned_timers" = "Timer Salvati";
+
+/* Actions */
+"start" = "Start";
+"stop" = "Stop";
+"delete" = "Cancella";
+"cancel" = "Annulla";
+"next" = "Prossimo";
+"edit" = "Modifica";
+"done" = "Fatto";
+
+/* Alerts */
+"delete_timer" = "Cancella timer";
+"delete_timer_message" = "Sei sicur* di voler cancellare questo timer?";
+
+/* Notifications */
+"times_up" = "Pausa finita!";
+"times_up_message" = "Daje, Daje, Daje!";
+
+/* Navigation */
+"gym_focus" = "GYM FOCUS";
+
+/* Add Timer */
+"time_in_seconds" = "Tempo in secondi";
+"seconds" = "secondi";
+"add" = "aggiungi";
+
+/* Sets */
+"sets" = "Serie";
+"reset" = "reset";
+"completed" = "completati";
+"plus_one" = "+1";
+
+/* Settings */
+"unit_of_measure" = "Unità di misura";
+"use_metric_system" = "Usa il sistema metrico";
+"advanced" = "Avanzate";
+"single_page_mode" = "Modalità pagina singola";
+"experimental_features" = "Funzioni sperimentali";
+"weight_percentage_calculator" = "Calcolo peso percentuale";
+"themes" = "Temi";
+
+/* Weight Counter */
+"barbell" = "Bilanciere";
+"select_barbell_weight" = "Scegli il peso del bilanciere";
+
+"percentage_calculator" = "Calcolo Percentuale";
+"one_rep_max" = "1RM Max";
+"kg" = "Kg";
+"lbs" = "Lbs";
+"plates" = "Dischi";
+
+/* Planner */
+"choose_new_plan_title" = "Come vorresti crearlo?";
+"choose_new_plan_from_gallery" = "Dalla Galleria";
+"choose_new_plan_from_gallery_desc" = "Seleziona le immagini dalla tua galleria";
+"choose_new_plan_from_camera" = "Dalla Fotocamera";
+"choose_new_plan_from_camera_desc" = "Scansiona dalla tua fotocamera";
+"choose_new_plan_manual" = "Manualmente";
+"choose_new_plan_manual_desc" = "Scrivi la tua scheda manualmente";
+"delete_plan" = "Cancella pagina";
+"delete_plan_message" = "Sei sicuro di voler cancellare questa pagina?";
+
+/* Tab Labels */
+"timer" = "Timer";
+"plates_counter" = "Conteggio Dischi";
+"settings" = "Impostazioni";
+"plan" = "Scheda";
+"more" = "Altro";

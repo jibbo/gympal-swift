@@ -1,0 +1,8 @@
+/* 
+  InfoPlist.strings
+  GymFocus
+
+  Created by Giovanni De Francesco on 26/07/25.
+  
+*/
+"NSCameraUsageDescription" = "La fotocamera verrà usata per scansionare le tue schede di allenamento";

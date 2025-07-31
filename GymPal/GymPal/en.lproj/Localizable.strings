@@ -1,0 +1,78 @@
+/* App Name */
+"app_name" = "GymPal";
+"not_available" = "This feature is not available yet";
+
+/* Timer related */
+"rest_timer" = "Rest Timer";
+"rest_time" = "Rest Time";
+"active_timer" = "Timer";
+"pinned_timers" = "Pinned Timers";
+
+/* Actions */
+"start" = "Start";
+"stop" = "Stop";
+"delete" = "Delete";
+"cancel" = "Cancel";
+"ok" = "Ok";
+"next" = "Next";
+"edit" = "Edit";
+"done" = "Done";
+
+/* Alerts */
+"delete_timer" = "Delete Timer";
+"delete_timer_message" = "Are you sure you want to delete this timer?";
+
+/* Notifications */
+"times_up" = "Time's up!";
+"times_up_message" = "Yeah buddy! Light weight!";
+
+/* Navigation */
+"gym_focus" = "GYM FOCUS";
+
+/* Add Timer */
+"time_in_seconds" = "Time in seconds";
+"seconds" = "seconds";
+"add" = "Add";
+
+/* Sets */
+"sets" = "Sets";
+"reset" = "RESET";
+"completed" = "completed";
+"plus_one" = "+1";
+
+/* Settings */
+"unit_of_measure" = "Unit of Measure";
+"use_metric_system" = "Use metric system";
+"advanced" = "Advanced";
+"single_page_mode" = "Single page mode";
+"experimental_features" = "Experimental Features";
+"weight_percentage_calculator" = "Weight Percentage calculator";
+"themes" = "Themes";
+
+/* Weight Counter */
+"barbell" = "Barbell";
+"select_barbell_weight" = "Select the weight of the barbell";
+"percentage_calculator" = "Percentage calculator";
+"one_rep_max" = "1RM Max";
+"kg" = "Kg";
+"lbs" = "Lbs";
+"plates" = "Plates";
+
+/* Planner */
+"choose_new_plan_title" = "How do you want to create it?";
+"choose_new_plan_from_gallery" = "From Gallery";
+"choose_new_plan_from_gallery_desc" = "Select pictures from your photo roll";
+"choose_new_plan_from_camera" = "From Camera";
+"choose_new_plan_from_camera_desc" = "Scan documents from your camera";
+"choose_new_plan_manual" = "Manually 👆";
+"choose_new_plan_manual_desc" = "Type your workout plan manually";
+"delete_plan" = "Delete page";
+"delete_plan_message" = "Are you sure you want to delete this page?";
+
+/* Tab Labels */
+"execution" = "Execution";
+"timer" = "Timer";
+"plates_counter" = "Plates Calculator";
+"settings" = "Settings";
+"plan" = "Plan";
+"more" = "More";

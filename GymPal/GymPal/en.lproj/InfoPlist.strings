@@ -1,0 +1,8 @@
+/* 
+  InfoPlist.strings
+  GymFocus
+
+  Created by Giovanni De Francesco on 26/07/25.
+  
+*/
+"NSCameraUsageDescription" = "The camera is used to scan workout plans and automatically import them into the app";
