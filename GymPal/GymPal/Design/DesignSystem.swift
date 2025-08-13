@@ -57,7 +57,7 @@ extension Color {
 }
 
 enum Theme {
-    static let fontName: String = "BebasNeue-Regular"
+    static let fontName: String = "Bebas Neue"
     static let themes: [(key: String, color: Color)] = [
         ("S", .primaryDefault),
         ("A", .primaryA),

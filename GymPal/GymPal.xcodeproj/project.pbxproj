@@ -7,58 +7,35 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4AD0D2042E3BE3180045425D /* GymPalWidgetsBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AD0D1FE2E3BE3180045425D /* GymPalWidgetsBundle.swift */; };
-		4AD0D2052E3BE3180045425D /* BebasNeue.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4AD0D1FD2E3BE3180045425D /* BebasNeue.ttf */; };
-		4AD0D2062E3BE3180045425D /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4AD0D1FF2E3BE3180045425D /* Info.plist */; };
-		4AD0D2072E3BE3180045425D /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4AD0D2022E3BE3180045425D /* Localizable.strings */; };
-		4AD0D2082E3BE3180045425D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4AD0D1FC2E3BE3180045425D /* Assets.xcassets */; };
 		4AF2442D2E3BE0EF00141EF7 /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = 4AF2442C2E3BE0EF00141EF7 /* FirebaseAnalytics */; };
 		4AF2442F2E3BE0EF00141EF7 /* FirebaseAnalyticsCore in Frameworks */ = {isa = PBXBuildFile; productRef = 4AF2442E2E3BE0EF00141EF7 /* FirebaseAnalyticsCore */; };
 		4AF244312E3BE0EF00141EF7 /* FirebaseCore in Frameworks */ = {isa = PBXBuildFile; productRef = 4AF244302E3BE0EF00141EF7 /* FirebaseCore */; };
 		4AF244332E3BE0EF00141EF7 /* FirebaseCrashlytics in Frameworks */ = {isa = PBXBuildFile; productRef = 4AF244322E3BE0EF00141EF7 /* FirebaseCrashlytics */; };
 		4AF244352E3BE0EF00141EF7 /* FirebasePerformance in Frameworks */ = {isa = PBXBuildFile; productRef = 4AF244342E3BE0EF00141EF7 /* FirebasePerformance */; };
 		4AF244372E3BE0EF00141EF7 /* FirebaseRemoteConfig in Frameworks */ = {isa = PBXBuildFile; productRef = 4AF244362E3BE0EF00141EF7 /* FirebaseRemoteConfig */; };
-		4AF244462E3BE1CC00141EF7 /* GymPal Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 4AF2443C2E3BE1CB00141EF7 /* GymPal Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		4AF244442E3BE1CC00141EF7 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 4A3715852E3BDF760062BD43 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 4AF2443B2E3BE1CB00141EF7;
-			remoteInfo = "watchappkit Watch App";
-		};
-/* End PBXContainerItemProxy section */
-
-/* Begin PBXCopyFilesBuildPhase section */
-		4AF2444A2E3BE1CC00141EF7 /* Embed Watch Content */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
-			dstSubfolderSpec = 16;
-			files = (
-				4AF244462E3BE1CC00141EF7 /* GymPal Watch App.app in Embed Watch Content */,
-			);
-			name = "Embed Watch Content";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		4A37158D2E3BDF760062BD43 /* GymPal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GymPal.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		4AD0D1FC2E3BE3180045425D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		4AD0D1FD2E3BE3180045425D /* BebasNeue.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = BebasNeue.ttf; sourceTree = "<group>"; };
-		4AD0D1FE2E3BE3180045425D /* GymPalWidgetsBundle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GymPalWidgetsBundle.swift; sourceTree = "<group>"; };
-		4AD0D1FF2E3BE3180045425D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		4AD0D2002E3BE3180045425D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
-		4AD0D2012E3BE3180045425D /* it */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = it; path = it.lproj/Localizable.strings; sourceTree = "<group>"; };
 		4AF2443C2E3BE1CB00141EF7 /* GymPal Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "GymPal Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		4AFF9F082E4C5992009E61D6 /* Exceptions for "GymPal" folder in "GymPal Watch App" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				"BebasNeue-Regular.ttf",
+			);
+			target = 4AF2443B2E3BE1CB00141EF7 /* GymPal Watch App */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		4A37158F2E3BDF760062BD43 /* GymPal */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				4AFF9F082E4C5992009E61D6 /* Exceptions for "GymPal" folder in "GymPal Watch App" target */,
+			);
 			path = GymPal;
 			sourceTree = "<group>";
 		};
@@ -96,7 +73,6 @@
 		4A3715842E3BDF760062BD43 = {
 			isa = PBXGroup;
 			children = (
-				4AD0D2032E3BE3180045425D /* GymPalWidgets */,
 				4A37158F2E3BDF760062BD43 /* GymPal */,
 				4AF2443D2E3BE1CB00141EF7 /* GymPal Watch App */,
 				4A37158E2E3BDF760062BD43 /* Products */,
@@ -112,18 +88,6 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		4AD0D2032E3BE3180045425D /* GymPalWidgets */ = {
-			isa = PBXGroup;
-			children = (
-				4AD0D1FC2E3BE3180045425D /* Assets.xcassets */,
-				4AD0D1FD2E3BE3180045425D /* BebasNeue.ttf */,
-				4AD0D1FE2E3BE3180045425D /* GymPalWidgetsBundle.swift */,
-				4AD0D1FF2E3BE3180045425D /* Info.plist */,
-				4AD0D2022E3BE3180045425D /* Localizable.strings */,
-			);
-			path = GymPalWidgets;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -134,12 +98,10 @@
 				4A3715892E3BDF760062BD43 /* Sources */,
 				4A37158A2E3BDF760062BD43 /* Frameworks */,
 				4A37158B2E3BDF760062BD43 /* Resources */,
-				4AF2444A2E3BE1CC00141EF7 /* Embed Watch Content */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				4AF244452E3BE1CC00141EF7 /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
 				4A37158F2E3BDF760062BD43 /* GymPal */,
@@ -226,10 +188,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4AD0D2052E3BE3180045425D /* BebasNeue.ttf in Resources */,
-				4AD0D2062E3BE3180045425D /* Info.plist in Resources */,
-				4AD0D2072E3BE3180045425D /* Localizable.strings in Resources */,
-				4AD0D2082E3BE3180045425D /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -247,7 +205,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4AD0D2042E3BE3180045425D /* GymPalWidgetsBundle.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,26 +216,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		4AF244452E3BE1CC00141EF7 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 4AF2443B2E3BE1CB00141EF7 /* GymPal Watch App */;
-			targetProxy = 4AF244442E3BE1CC00141EF7 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		4AD0D2022E3BE3180045425D /* Localizable.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				4AD0D2002E3BE3180045425D /* en */,
-				4AD0D2012E3BE3180045425D /* it */,
-			);
-			name = Localizable.strings;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		4A3715982E3BDF770062BD43 /* Debug */ = {
@@ -415,6 +352,9 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIAppFonts = (
+					"BebasNeue-Regular.ttf",
+				);
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -443,6 +383,9 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIAppFonts = (
+					"BebasNeue-Regular.ttf",
+				);
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
